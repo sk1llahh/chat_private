@@ -2,7 +2,7 @@
 import { client } from "@/lib/client";
 import { useMutation } from "@tanstack/react-query";
 import { nanoid } from "nanoid";
-import { useRouter } from 'next/router';
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const ANIMALS = ["wolf", "hawk", "shark", "bear"];
